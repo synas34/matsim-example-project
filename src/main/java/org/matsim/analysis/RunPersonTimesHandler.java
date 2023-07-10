@@ -1,6 +1,5 @@
 package org.matsim.analysis;
 
-import org.apache.commons.lang3.event.EventUtils;
 import org.matsim.core.events.EventsUtils;
 
 public class RunPersonTimesHandler {

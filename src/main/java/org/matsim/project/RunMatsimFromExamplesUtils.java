@@ -19,10 +19,14 @@ class RunMatsimFromExamplesUtils{
 
 		Config config = ConfigUtils.loadConfig( url );
 		config.controler().setOverwriteFileSetting( OverwriteFileSetting.deleteDirectoryIfExists );
+		config.controler().setLastIteration(0);
+		config.controler().setOutputDirectory("scenarios\\equil\\outputnew");
+
 
 		// ---
 
 		Scenario scenario = ScenarioUtils.loadScenario( config );
+
 
 		// ---
 
